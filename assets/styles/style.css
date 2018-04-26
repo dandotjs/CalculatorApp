@@ -1,0 +1,44 @@
+#container-div {
+    background-image: url("../images/calc.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100%;
+    background-size: cover;
+}
+
+#calc-div{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#results-div {
+    margin: 0 auto;
+    background: #343a40;
+    color: white;
+    font-size: 16px;
+}
+
+#result {
+    text-align: center;
+}
+
+button {
+    border: 5px;
+    border-width: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button, .number {
+    background-color: teal;
+    color: white;
+}
+
+button, .operator {
+    background-color: red;
+    color: white;
+}
